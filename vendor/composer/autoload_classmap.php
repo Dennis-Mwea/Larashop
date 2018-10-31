@@ -18,6 +18,8 @@ return array(
     'CreatePostsTable' => $baseDir . '/database/migrations/2018_10_16_150747_create_posts_table.php',
     'CreateProductsTable' => $baseDir . '/database/migrations/2016_12_04_092450_create_products_table.php',
     'CreateSocialAccountsTable' => $baseDir . '/database/migrations/2018_10_16_122431_create_social_accounts_table.php',
+    'CreateUserDetailsTable' => $baseDir . '/database/migrations/2018_10_28_025317_create_user_details_table.php',
+    'CreateUserDevicesTable' => $baseDir . '/database/migrations/2018_10_27_172548_create_user_devices_table.php',
     'CreateUsersTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_users_table.php',
     'DatabaseSeeder' => $baseDir . '/database/seeds/DatabaseSeeder.php',
     'DivisionByZeroError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/DivisionByZeroError.php',

@@ -7,11 +7,13 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Facades\Config;
 use Larashop\Models\Brand;
+use Larashop\Models\UserDetail;
 use Larashop\Notifications\LarashopAdminResetPassword as ResetPasswordNotification;
 use Larashop\Post;
 use Larashop\SocialAccount;
 use Laravel\Passport\HasApiTokens;
 use Zizaco\Entrust\Traits\EntrustUserTrait;
+
 
 class User extends Authenticatable
 {
@@ -73,5 +75,9 @@ class User extends Authenticatable
 
     public function getId() {
         return $this->id;
+    }
+
+    public function userDetails() {
+        return $this->hasOne(UserDetail::class);
     }
 }

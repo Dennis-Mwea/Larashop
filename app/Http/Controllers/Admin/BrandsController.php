@@ -85,7 +85,8 @@ class BrandsController extends Controller
         
         $brand = Brand::create([
         'name' => $request->input('name'),
-        'description' => Auth::id(),
+        'description' => $request->input('description'),
+        'user_id' => 1,
         ]);
         
         return redirect()->route('brands.index')->with('success', trans('general.form.flash.created',['name' => $brand->name]));   

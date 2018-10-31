@@ -443,6 +443,8 @@ class ComposerStaticInit54b282aa92f7169f2b3d71bc5f0f3eb0
         'CreatePostsTable' => __DIR__ . '/../..' . '/database/migrations/2018_10_16_150747_create_posts_table.php',
         'CreateProductsTable' => __DIR__ . '/../..' . '/database/migrations/2016_12_04_092450_create_products_table.php',
         'CreateSocialAccountsTable' => __DIR__ . '/../..' . '/database/migrations/2018_10_16_122431_create_social_accounts_table.php',
+        'CreateUserDetailsTable' => __DIR__ . '/../..' . '/database/migrations/2018_10_28_025317_create_user_details_table.php',
+        'CreateUserDevicesTable' => __DIR__ . '/../..' . '/database/migrations/2018_10_27_172548_create_user_devices_table.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
         'DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/DatabaseSeeder.php',
         'DivisionByZeroError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/DivisionByZeroError.php',

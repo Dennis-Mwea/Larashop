@@ -47,4 +47,10 @@ class LoginController extends Controller{
     	return response()->json([], 204);
 
     }
+
+    public function user() {
+        $userDetails = Auth::user()->userDetails()->get();
+
+        return response()->json(['user' => $userDetails]);
+    }
 }
